@@ -1,0 +1,343 @@
+<!-- freepic  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #A:hover {
+            background-color: red;
+        }
+
+        /* #B:hover{
+            background-color: blue;
+        } */
+    </style>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 p-0 fixed-top">
+                <!-- <div class="fixed-top"> -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-success" style="position: static;">
+                    <a class="navbar-brand" href="#" id="A">Home</a>
+                    <a class="navbar-brand" href="#" id="A"> About</a>
+                    <a class="navbar-brand" href="#" id="A">Gallery</a>
+                    <a class="navbar-brand" href="#" id="A">Contact Us</a>
+
+                    <!--   search bar -->
+                    <form action="/search" method="get" style="margin-left:auto;">
+                        <input type="text" name="query" placeholder="Search..." />
+                        <button id="A" type="submit">Search</button>
+                    </form>
+                    <!-- end here -->
+
+                    <button id="A" class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 p-0">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img3.jpg" alt="First slide" height="550">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color: rgb(255, 30, 0);">Sanjay Kumar</h3>
+                                <h5 style="color: rgb(255, 30, 0);"> Inspiring Quotes About Nature</h5>
+                                <p>What is the good of your stars and trees, your sunrise and the wind, if they do not
+                                    enter into our daily lives?" –E.M. Forster
+                                    "The tree which moves some to tears of joy is in the eyes of others only a green
+                                    thing which stands in the way. Some see nature all ridicule and deformity, and by
+                                    these I shall not regulate my propositions. And some see no nature at all. But to
+                                    the eyes of the man of imagination, nature is imagination itself." –William Blake
+                                </p>
+                                <button id="A"
+                                    style="background-color:rgb(5, 5, 252); margin-right:400px;color: white;">Sign
+                                    Up Today</button>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img1.jpg" alt="Second slide" height="550">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Sanjay Kumar</h2>
+                                <h5> Inspiring Quotes About Nature</h5>
+                                <p style="color:rgb(252, 233, 233);">“When you do something noble and beautiful and
+                                    nobody noticed, do not be sad. For the sun every morning is a beautiful spectacle
+                                    and yet most of the audience still sleeps.” –John Lennon
+                                    “We don’t inherit the earth from our ancestors, we borrow it from our children.”
+                                    –Chief Seattle</p>
+                                <button id="A" style="background-color:rgb(4, 4, 207);color: white; ">lern more</button>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img2.jpg" alt="Third slide" height="550">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Sanjay Kumar</h2>
+                                <h5> Inspiring Quotes About Nature</h5>
+                                <p>"I think having land and not ruining it is the most beautiful art that anybody could
+                                    ever want." –Andy Warhol
+                                    “In nature, nothing is perfect and everything is perfect. Trees can be contorted,
+                                    bent in weird ways, and they’re still beautiful.” –Alice Walker
+                                    .</p>
+                                <button style="background-color:blue;color: white; margin-left: 400px; ">Browse
+                                    Gallery</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <center>
+            <div class="row">
+                <!-- <img src="img1.jpg" alt=""> -->
+                <div class="col-sm-4">
+                    <img src="img1.jpg" alt="..." class="rounded-circle" height="190" width="190">
+                    <div class="card-body" style="border: 2px solid; margin-top: 5px;">
+                        <h5 class="card-title">–E.M. Forster</h5>
+                        <hr>
+                        <p class="card-text">"What is the good of your stars and trees, your sunrise and the wind, if
+                            they do not enter into our daily lives? "God is great " "Nature is the art of God." –E.M.
+                            Forster</p>
+                        <a class="btn btn-secondary" href="#" role="button">View Details »</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img2.jpg" alt="..." class="rounded-circle" height="190" width="190">
+                    <div class="card-body" style="border: 2px solid; margin-top: 5px;">
+                        <h5 class="card-title">Dante Alighieri</h5>
+                        <hr>
+                        <p class="card-text">"My wish is to stay always like this, living quietly in a corner of
+                            nature." –Claude Monet."Nature is the art of God." - Dante Alighieri...... </p>
+                        <a class="btn btn-secondary" href="#" role="button">View Details »</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img3.jpg" alt="..." class="rounded-circle" height="190" width="190">
+                    <div class="card-body" style="border: 2px solid; margin-top: 5px;">
+                        <h5 class="card-title">Henry David Thoreau</h5>
+                        <hr>
+                        <p class="card-text">"Every morning was a cheerful invitation to make my life of equal
+                            simplicity, and I may say innocence, with Nature herself."</p>
+                        <a class="btn btn-secondary" href="#" role="button">View Details »</a>
+                    </div>
+
+                </div>
+
+                <!-- <div class="col-sm-6"> </div> -->
+            </div>
+            <hr>
+        </center>
+
+
+        <center>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 style="margin: 75px 64px; margin-top: 98px;">Look deep into nature, and then you will understand
+                        everything better
+                    </h2>
+                    <p class="lead" style="margin: 79px 85px;">Celebrate Earth Day 2024 with these inspiring sayings
+                        about honoring nature and the environment. Share famous quotes from world leaders, activists and
+                    </p>
+                </div>
+                <div class="col-sm-6 p-0">
+                    <!-- <img src="img4.jpg" class="rounded float-right"  alt="..."> -->
+
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                        style="width: 500px; height: 500px; margin-top: 34px;" src="img4.jpg"
+                        data-holder-rendered="true">
+                </div>
+            </div>
+            <hr>
+        </center>
+
+        <center>
+
+            <div class="row">
+                <div class="col-sm-6 p-0">
+                    <!-- <img src="img4.jpg" class="rounded float-right"  alt="..."> -->
+
+                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x700/auto" alt="500x700"
+                        style="width: 500px; height: 500px; margin-top: 40px;" src="img5.jpg"
+                        data-holder-rendered="true">
+                </div>
+
+                <div class="col-sm-6">
+                    <h2 style="margin: 85px 64px;margin-top: 98px;">Look deep into nature, and then you will understand
+                        everything
+                        better
+                    </h2>
+                    <p class="lead" style="margin: 79px 85px;">Celebrate Earth Day 2024 with these inspiring sayings
+                        about honoring nature and the environment. Share famous quotes from world leaders, activists
+                        and
+                    </p>
+                </div>
+
+
+            </div>
+            <hr>
+        </center>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a id="A" class="page-link" href="https://github.com/SanjaiHub">1-my
+                                github</a></li>
+                        <li class="page-item"><a id="A" class="page-link"
+                                href="https://www.linkedin.com/in/sanjay-kumar-49a648301/">2-linkedin</a></li>
+                        <li class="page-item"><a id="A" class="page-link"
+                                href="https://www.javatpoint.com/java-tutorial">3-javatpoint</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">hi</div>
+                </div><br>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100">hello</div>
+                </div><br>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">kaise</div>
+                </div><br>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100">ho</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <center>
+            <div class="row">
+                <div class="col-sm-12">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#abc">click</button>
+             
+                    <div class="modal" tabindex="-1" role="dialog" id="abc">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Your Form is success fully submit.</p>
+                                    <img src="img5.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+
+
+
+
+        <a id="A" href="http://127.0.0.1:5500/third.html#"
+            style="float: right; margin-bottom:88px;margin-top: 11px; margin-right: 92px;">Back to Top</a>
+
+    </div>
+</body>
+
+</html>

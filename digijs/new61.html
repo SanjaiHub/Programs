@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js61</title>
+    <style>
+        #box{
+            width: 50%;
+            height: 250px;
+            background: url(1.jpg);
+            background-size: 100% 100%;
+        }
+        #box:hover{
+            cursor: pointer;
+
+        }
+
+    </style>
+    <script>
+        function demo(){
+            myAudio.play();
+        }
+    </script>
+</head>
+<body>
+    <div id="box" onclick="demo()">
+        <audio src="sound1.wav" id="myAudio"></audio>
+    </div>
+    
+</body>
+</html>

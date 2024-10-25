@@ -1,0 +1,25 @@
+js:-
+js ek prgramming language
+js ek clinet-side scripting language
+client-side:- user visibilty
+event-based prog. language:-
+click ,key press,......
+benefit of prog. language:-
+wd,desktop app,mobile app dev
+
+use of js in web. dev.:-
+dropdown menu,animated slider, maps, chatgraphs, form validation
+
+2 ways t implement js:-
+in page js, external js
+
+variable-:
+let ,var,const;
+let ko overlap kar sahta hai
+var ko dobara use kar sakte hai 
+cont ko dabara use nahi kar sakte hai 
+
+
+document_-: pure page ko call karta hA
+
+

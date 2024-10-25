@@ -1,0 +1,10 @@
+css- case style sheet
+-->haykon wium lie--1994
+--> attractive...
+type inline
+enternal
+exten..
+
+selector-
+id ,class ,grp, universal,element,
+#,.,

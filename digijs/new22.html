@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js2</title>
+    <script>
+        function add(){
+            var a=document.getElementById("t1").value;
+            var b=document.getElementById("t2").value;
+            // alert(a);
+            // alert(b);
+            a=parseInt(a);
+            b=parseInt(b);
+            var c=a+b;
+            alert(c);
+        }
+        function sub(){
+            var a=document.getElementById("t1").value;
+            var b=document.getElementById("t2").value;
+            // alert(a);
+            // alert(b);
+            a=parseInt(a);
+            b=parseInt(b);
+            var c=a-b;
+            alert(c);
+
+        }
+
+        function mul(){
+            var a=document.getElementById("t1").value;
+            var b=document.getElementById("t2").value;
+            // alert(a);
+            // alert(b);
+            a=parseInt(a);
+            b=parseInt(b);
+            var c=a*b;
+            alert(c);
+
+        }
+
+        function div(){
+            var a=document.getElementById("t1").value;
+            var b=document.getElementById("t2").value;
+            // alert(a);
+            // alert(b);
+            a=parseInt(a);
+            b=parseInt(b);
+            var c=a/b;
+            alert(c);
+
+        }
+        
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="Enter your first number" id="t1"><br>
+
+    <input type="text" placeholder="Enter second first number" id="t2">
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="mul()">multi</button>
+    <button onclick="div()">div</button>
+
+    
+</body>
+</html>

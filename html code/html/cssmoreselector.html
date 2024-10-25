@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more selector</title>
+    <style>
+        h1{
+            background-color: rgb(50, 194, 146);
+            color: rgb(139, 104, 104);
+            font-weight: bold;
+            text-align: center;
+            
+            
+        }
+      /* all p under th div */
+        /* 
+
+        div p{
+            color: rgb(255, 0, 85);
+            background-color: aqua;
+            font-weight: bold;
+        }
+        /* if p right insidediv then applied */
+        div > p {
+            color: rgb(255, 0, 85);
+            background-color: aqua;
+
+        } */
+        /*if p is  right after the div or p is */
+        div +p{
+            color: rgb(255, 0, 85);
+            background-color: aqua;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <h1>this is more selector</h1>
+  <div class="container">
+    <div class="row">
+        <p>this is paragraph</p>
+    </div>
+    <p>this is Another paragraph</p>
+  </div>
+    <P>this is outer paragraph</P>
+</body>
+</html>

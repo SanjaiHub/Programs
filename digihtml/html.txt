@@ -1,0 +1,60 @@
+html:-hyper text markup language
+ html 1.0-1991
+ html 2.0 - 1995 --table image support
+ html 3.2- 1997-- map sopport
+ html 4.01-1999--css ,js support
+ xhtml 1.0--2000-: android base --backend
+ html 5-2014-- perticular section define
+
+ hyper text -- text and image ke format ho.
+
+ <!doctype html>---- version of html 5
+ <html>---root of document
+
+ <head>--page inf.---
+
+ include this--{
+    <meta>--meta data
+    <.title>
+    <link>
+    <style>
+    <script>
+ }
+
+ <body>--page contents
+
+ document structure-:
+ <h1>...<h6>--heading
+ <div>--page section--without css this is a row element
+ <span>--inline section
+ <p>-paragraph tag
+ <img>--image tag
+ <br>-
+ <hr>
+ <video>
+ <audio>
+ <font> </font>
+
+
+
+ ------------------------------------------
+ form:-
+
+ <form>-defines form for user grp
+ <input> -- defines input controls
+ <label>- label for input element
+ <textarea> -multipe input text area
+ <select>-define drop down list
+ <option>--options in drop down list
+ <optgroup label="45day">--option grp
+ <fieldset>-groups elementin form
+ <legend>--caption for fieldset
+ <button>--a clickable button
+
+-------------------------------------
+
+html input type  :-
+<input type=text>
+-password>......
+
+

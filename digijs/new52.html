@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js52</title>
+    <script>
+        var image=["1.jpg","2.jpg","3.jpg"];
+        var i=0;
+        function slider(){
+            img1.src=image[i];
+            i++;
+            if(i==image.length){
+                i=0;
+            }
+            setTimeout(slider,1000);
+
+        }
+    </script>
+</head>
+<body onload="slider()">
+    <img src="1.jpg" alt="pic" id="img1" height="450px" width="100%">
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mybox{
+            float: left;
+            width: 50px;
+            height: 50px;
+            background-color: lime;
+            border: 2px solid;
+            margin: 3px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function showBox(){
+            // alert("Hello, Coders");
+            for(var i=1;i<=20;i++){
+                // document.write(i);
+                box.innerHTML+="<div class=mybox>"+ i + " </div>";
+            }
+        }
+    </script>
+</head>
+<body onload="showBox()">
+    <div id="box"></div>
+
+    
+</body>
+</html>

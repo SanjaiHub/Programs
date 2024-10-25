@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js62</title>
+    <script>
+        function getAscii(){
+            var text=document.getElementById("t1").value;
+            // document.getElementById("p1").innerHTML+=text;
+
+            // var ascii=charCodeAt(text);
+            // document.getElementById("p1").innerHTML+=text;
+            for(var i=0;i<text.length;i++){
+                var ascii=text.charCodeAt(i);
+                document.getElementById("p1").innerHTML+='ASCII Value is:'+ascii;
+                document.getElementById("p1").innerHTML+="<br>";
+            }
+        }
+    </script>
+</head>
+<body>
+    Enter a Text: <input type="text" id="t1">
+    <button onclick="getAscii()">Get ASCII Value </button><hr>
+    <p id="p1"> </p>
+    
+</body>
+</html>

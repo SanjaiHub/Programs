@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Box shadow and text shadow</title>
+        <style>
+            .container{
+                display: flex;
+            }
+            .card{
+                padding: 23px 12px;
+
+                /* border: 2px solid red; */
+                margin: 23px 12px;
+                background-color: antiquewhite;
+               /*  box-shadow: 10px 13px green ; /*  bottom shadow */ 
+               /* box-shadow: -3px -4px green; */
+               /* box-shadow: 12px 14px 52px green;  blur radius */
+                /* box-shadow: 12px 14px 22px 34px rgb(96, 158, 33, 96); spread radius */ 
+                box-shadow: inset 3px 25px green;
+                box-shadow: 3px 5px red, 8px 6px blue ;
+                
+            }
+            .card h2{
+
+                /* text-shadow: 3px 4px red; */
+                text-shadow: 3px 4px 7px rgb(145, 78, 78);
+
+            }
+            </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="card" id="card-1">
+            
+                <h2> this is c++ Cource</h2> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet voluptatem nulla enimdefdrdaasrtddwrt;kjouoDa asperiores dolorem iure delectus harum iusto maxime quasi placeat nihil ut ab quaerat, cupiditate voluptatum. </p>
+            </div>
+
+            <div class="card" id="card-2">
+                <h2>  this is html Cource  </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet voluptatem nulla enim magni vero atque aspernatur, non a asperiores dolorem iure delectus harum iusto maxime quasi placeat nihil ut ab quaerat, cupiditate voluptatum. </p>
+            </div>
+
+            <div class="card" id="card-3">
+                <h2> This is Java Cource</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eveniet voluptatem nulla enim magni vero atque aspernatur, non a asperiores dolorem iure delectus harum iusto maxime quasi placeat nihil ut ab quaerat, cupiditate voluptatum. </p>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

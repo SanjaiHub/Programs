@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js43</title>
+    <style>
+        /* #box1 {
+            border: 1px solid black; 
+            margin-top: 10px;
+        } */
+    </style>
+    <script>
+        function showBox() {
+            // var c1 = document.getElementById('c1');
+            // var c2 = document.getElementById('c2');
+            // var c3 = document.getElementById('c3');
+            // var box1 = document.getElementById('box1');
+
+            box1.style.width = c1.value; // Adding 'px' to specify units
+            box1.style.height = c2.value; // Adding 'px' to specify units
+            box1.style.backgroundColor = c3.value;
+        }
+    </script>
+</head>
+
+<body> 
+     box width:
+    <input type="text" id="c1"><br>
+    <hr>
+    Enter height:
+    <input type="text" id="c2"><br>
+    <hr>
+    Select Color:
+    <input type="color" id="c3"><br>
+    <hr>
+    <button onclick="showBox()">Show Box</button>
+    <br>
+    <div id="box1"></div>
+</body>
+
+</html> 

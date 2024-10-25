@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript63</title>
+    <style>
+        #box {
+            width: 250px;
+            height: 200px;
+            background-color: gray;
+            color: whitesmoke;
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+
+        }
+    </style>
+    <script>
+        function getRandom(min, max) {
+            var i = Math.random();
+            i = i * (max-min) + min;
+            i=Math.floor(i);
+            return i;
+
+
+        }
+        function getCaptcha(){
+            var sp_char="@#$%*-+";
+            var a= getRandom(0,9);
+            var b=String.fromCharCode(getRandom(65,90));
+            var c=String.fromCharCode(getRandom(97,122));
+            var d=sp_char.charAt(getRandom(0,sp_char.length-1));
+            var e= getRandom(0,9);
+            var f=String.fromCharCode(getRandom(65,90));
+            var cp=""+a+b+c+d+e+f;
+            document.getElementById("box").innerHTML=cp;
+
+        }
+    </script>
+</head>
+
+<body onload="getCaptcha()">
+    <div id="box">dggfjf</div>
+    <button onclick="getCaptcha()">&#8634;</button>
+
+
+</body>
+
+</html>

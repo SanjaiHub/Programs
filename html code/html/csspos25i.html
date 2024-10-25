@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title> position </title>
+        <style> 
+        /*css position: static(default),absolute , relative,fixed,sticky */
+        .container{
+            background-color:rgb(218, 218, 30);
+            border:black;
+            height: 3444px;
+        }
+        .box{
+            display: inline-block;
+            border:2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        
+        }
+        /*position property  */
+        #box3{
+
+            /* position:absolute;  
+             position: relative;*/
+            /* fixed:position relative  to the browser window; */
+            /* position: fixed;
+            right: 4px;
+            bottom: 2px; */
+
+            /* top:34px ;
+            left: 34px; */
+            position: sticky;
+            top: 3px;
+
+
+
+
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">chat with us</div>
+            <div class="box" id="box4">4</div>
+        </div>
+
+    </body>
+</html>

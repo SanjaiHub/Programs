@@ -1,0 +1,262 @@
+.main{
+    height: 555px;
+    width: 555px;
+    /* background: red; */
+    border: 1px solid black;
+    margin:0 auto;  
+}
+.A{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+}
+
+.B{
+    height: 150px;
+    width: 100%;
+    border:1px solid;
+    display:flex;
+
+}
+
+.C{
+    height: 200px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+
+}
+
+.a1{
+    height: 100%;
+    width: 200px;
+    border: 1px solid;
+    background-color: red;
+}
+
+.a2{
+    height: 100%;
+    width: 150px;
+    border: 1px solid;
+}
+
+.a3{
+    height: 100%;
+    width: 200px;
+    background: green;
+    border: 1px solid;
+}
+
+.b1{
+    height: 100%;
+    width: 200px;
+    border: 1px solid;
+    display: flex;
+    /* background-color:; */
+}
+
+.b2{
+    height: 100%;
+    width: 150px;
+    border: 1px solid;
+}
+
+.b3{
+    height: 100%;
+    width: 200px;
+    border: 1px solid;
+    display: flex;
+}
+
+.c1{
+    height: 100%;
+    width: 200px;
+    border: 1px solid;
+    background-color:blueviolet;
+}
+
+.c2{
+    height:100%;
+    width: 150px;
+    border: 1px solid;
+}
+
+.c3{
+    height: 100%;
+    width: 200px;
+    background: yellow;
+    border: 1px solid;
+}
+
+.a11{
+    height: 150px;
+    width: 150px;
+    background:white;
+    margin: 24px 24px 24px 24px;
+}
+
+.a12{
+    height: 75px; ;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.a13{
+     height: 75px;
+    width: 100%;
+    /* border: 1px solid;  */
+    display: flex;
+}
+
+.a21{
+    height:50% ;
+    width: 30%;
+    border-radius: 100%;
+    background: red;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.a22{
+    height:50%;
+    width: 30%;
+    border-radius: 100%;
+    background: red;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.b11{
+    border-left: 75px solid  red;
+    border-right: 75px solid yellow;
+    border-bottom: 75px solid blueviolet;
+    border-top: 75px solid green;
+    float: left;
+    /* height: 20px; */
+    /* width: 20px; */
+}
+
+/* a2 se related horizantal division*/
+#a21{
+    height: 16%;
+    width: 98.99%;
+    border: 1px solid;
+    display: flex;
+}
+#a22{
+    height: 16%;
+    width: 98.99%;
+    border: 1px solid;
+    display: flex;
+
+}
+
+#a23{
+    height: 16%;
+    width: 98.99%;
+    border: 1px solid;
+    display: flex;
+
+}
+
+#a24{
+    height: 16%;
+    width: 98.99%;
+    border: 1px solid;
+    display: flex;
+
+}
+
+#a25{
+    height: 16%;
+    width: 98.99%;
+    border: 1px solid;
+    display: flex;
+
+}
+
+#a26{
+    height: 16%;
+    width: 98.99%;
+    border: 1px solid;
+    display: flex;
+
+}
+/* vertical division */
+
+#a211{
+    height: 98.99%;
+    width: 32.98%;
+    border: 1px solid;
+}
+
+#a212{
+    height: 98.99%;
+    width: 32.98%;
+    border: 1px solid;
+   
+}
+
+#a213{
+    height: 98.99%;
+    width: 32.98%;
+    border: 1px solid;
+    
+}
+
+.b111{
+    height: 98.98%;
+    width: 16%;
+    border: 1px solid;
+}
+
+.b112{
+    height: 98.98%;
+    width: 16%;
+    border: 1px solid;
+}
+.b113{
+    height: 98.98%;
+    width: 16%;
+    border: 1px solid;
+}
+
+.b114{
+    height: 98.98%;
+    width: 16%;
+    border: 1px solid;
+}
+.b115{
+    height: 98.98%;
+    width: 16%;
+    border: 1px solid;
+}
+
+.b116{
+    height: 98.98%;
+    width: 16%;
+    border: 1px solid;
+}
+
+.b21{
+    height: 32.98%;
+    width: 98.98%;
+    border: 1px solid;
+}
+.b22{
+    height: 32.98%;
+    width: 98.98%;
+    border: 1px solid;
+}
+
+.b23{
+    height: 32.98%;
+    width: 98.98%;
+    border: 1px solid;
+}
+
+
+
+
+

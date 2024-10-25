@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 60px;
+            height: 60px;
+
+        }
+        #main{
+            font-size: 50px;
+            animation-name: runAuto;
+            animation-timing-function:linear;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes runAuto{
+            0%{
+                transform: translate(1200px);
+            }
+            50%{
+                transform: translate(0px,0px);
+            }
+            100%{
+                transform: translate(1200px ,0px);
+            }
+        }
+    </style>
+
+    <script>
+        var a=true;
+        function checkBox(){
+            if(box.style.transform==""&& a == false){
+                box.style.transform="rotateY(180deg)";
+                a=true;
+            }
+            else{
+                box.style.transform="";
+               a= false;
+            }
+            setTimeout(checkBox,5000);
+        }
+    </script>
+</head>
+<body onload="checkBox()">
+    <div id="main">
+        <div id="box">🚗🚗 </div>
+    </div>
+    
+</body>
+</html>

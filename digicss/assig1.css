@@ -1,0 +1,53 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background: red;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.A{
+    height: 100px;
+    width: 300px;
+    background:blue;
+
+
+}
+.B{
+    height: 100px;
+    width: 300px;
+    background:yellow;
+    border: 2px solid black;
+    
+}
+.C{
+    height: 100px;
+    width: 300px;
+    background:green;
+    display: flex;
+    
+    
+}
+
+ .a1{
+    height: 100px;
+    width: 100px;
+    background:aqua;
+     border: 1px solid black; 
+ }
+ .a2{
+    height:100px;
+    width:100px;
+    background: red;
+     border: 1px solid black; 
+
+ }
+ .a3{
+    height: 100px;
+    width: 100px;
+    background:white;
+    border: 1px solid black; 
+
+ }
+ 
+

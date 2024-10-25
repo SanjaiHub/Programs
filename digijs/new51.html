@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js51</title>
+    <style>
+        .mybox {
+            float: left;
+            width: 50px;
+            height: 50px;
+            /* background-color: lime; */
+            border: 1px solid;
+            margin: 3px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        var color = ["red", "green", "orange", "lime", "yellow"];
+        var i = 0;
+        var a = 1;
+        function showBox() {
+            box.innerHTML += "<div class='mybox' style='background-color:" + color[i] + ";'> "+a+"</div>";
+            i++
+            if (i == color.length) {
+                i = 0;
+            }
+            if (a <=20) {
+                a++;
+                setTimeout(showBox, 100);
+            }
+        }
+    </script>
+</head>
+
+<body onload="showBox()">
+    <div id="box"></div>
+
+
+</body>
+
+</html>

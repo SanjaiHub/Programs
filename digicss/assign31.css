@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+}
+
+#A{
+    height: 493px;
+    width: 800px;
+    /* border: 5px solid gray; */
+    /* border: inset; */
+    border: 4px outset black;
+    margin: 0 auto;  
+    
+}
+
+#B{
+    height: 42px;
+    width: 100%;
+    border: 1px solid gray;
+    /* text-align: center; */
+    /* font-size: 30px;  */
+}
+h1{
+    margin-top: 4px;
+    text-align: center;
+}
+
+.a{
+    height: 30px;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+
+}
+.a1{
+    height: 30px;
+    width: 50%;
+    border: 1px solid gray; 
+       
+     /* float: left; */
+}
+.b{
+    height: 30px;
+    width: 50%;
+     border: 1px solid gray; 
+     /* border-style: none; */
+      /* margin-top: 4px; */
+      /* margin-left: 2px;  */
+     /* float: left;  */
+}
+input{
+    margin-top: 4px;
+    margin-left: 3px;
+}
+select{
+    margin-top: 4px;
+    margin-left: 3px;
+}

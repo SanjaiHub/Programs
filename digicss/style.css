@@ -1,0 +1,15 @@
+p{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background:yellow;
+    font-style: italic;
+}
+h1{
+    color: rgb(0, 26, 255);
+    text-align:center;
+    background: red;
+    font-style: italic;
+    
+}

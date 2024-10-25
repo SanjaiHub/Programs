@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js3</title>
+    <script>
+        function add(){
+            var a=document.getElementById("t1").value;
+            var b=document.getElementById("t2").value;
+            // alert(a);
+            // alert(b);
+            a=parseInt(a);
+            b=parseInt(b);
+            var c=a+b;
+            // alert(c);
+            document.getElementById("opt").innerHTML+=c;
+            console.log(c);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="Enter your first number" id="t1"><br>
+
+    <input type="text" placeholder="Enter second first number" id="t2"> <br>
+    <button onclick="add()">Add</button><br>
+    <hr>
+    <h3 id="opt">Output is=</h3>
+
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .A{
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        margin:0 auto;
+        animation-name: example;
+        animation-duration: .6s;
+        /* animation-duration: 10s; */
+         /* transition: 0.1;  */
+         animation-iteration-count: calc(20);
+
+    }
+    @keyframes example{
+        /* from{
+            background-color: red;
+        }
+        to{
+            background: green;
+        } */
+
+        0%{background-color: blue;}
+        25%{background-color: red;}
+        50%{background-color: aqua;}
+        100%{background-color: green;}
+
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="A"></div>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration from</title>
+</head>
+
+<body>
+    <fieldset>
+        <!-- for give title use legend tag -->
+        <legend align="center">Add form</legend>
+        <form action="" method="post">
+            Name: <input type="text" required size="50" placeholder="Enter your Full name"><br>
+            Email: <input type="email" value="abc@gmail.com"><br>
+            Phone no: <input type="number" value="8604678897" readonly disabled><br>
+            Password: <input type="password" ><br> 
+            DOB: <input type="date"><br>
+            time: <input type="time"><br>
+            datetime: <input type="datetime-local"><br>
+            week: <input type="week"><br>
+            month: <input type="month"><br>
+            Rs: <input type="range"><br>
+            hidden:<input type="hidden"><br>
+            color: <input type="color"><br>
+            pic: <input type="file"><br>
+
+            <label for="">Gender:</label>
+            <input type="radio" name="gend" checked>male,
+            <input type="radio" name="gend">female,
+            <input type="radio" name="gend">Other,
+            <br>
+            <label for="">classes:</label>
+            <input type="checkbox" checked>HTML,
+            <input type="checkbox"checked>CSS,
+            <input type="checkbox">JS,
+            <input type="checkbox">C,
+            <br>
+            <label for="">City</label>
+            <select name="" id="">
+                <option>select city</option>
+                <option value="bahraich" selected> bahraich</option>
+                <option value="Lucknow"> Lucknow</option>
+                <option value="Banaras"> Banaras</option>
+
+            </select>
+            <br><br>
+            <label for="">All class</label>
+            <select name="" id="">
+                <option value="">select</option>
+                <optgroup label="core">
+                    <option value="">Php</option>
+                    <option value="">java</option>
+                    <option value="">Python</option>
+                    <option value="">Mern</option>
+
+                </optgroup>
+                <optgroup label="Advanced">
+                    <option value="">Adv. Php</option>
+                    <option value="">Adv. java</option>
+                    <option value="">Adv.Python</option>
+                    <option value="">Adv. Mern</option>
+
+                </optgroup>
+            </select><br><br>
+            <label for="">Full Address :</label><br>
+            <textarea name="" id="" placeholder="textarea" cols="20" rows="4"> Address</textarea>
+            <br>
+            <button>save</button> <button>submit</button> <button>remove data</button>
+            <hr>
+            
+            <input type="button" value="save"><br>
+            <input type="submit" >
+            <br>
+            <input type="reset">
+            
+
+        </form>
+
+    </fieldset>
+
+</body>
+
+</html>

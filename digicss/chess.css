@@ -1,0 +1,89 @@
+.main{
+    height: 416px;
+    width: 402px;
+    background: fixed; 
+    background-color: brown;
+    border: 3px solid black;
+    margin:0 auto;
+    /* display: flex; */
+}
+#A{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+}
+#B{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+}
+#C{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+
+}
+#D{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+
+}
+#E{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+
+}
+#F{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+
+}
+#G{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+
+}
+
+#H{
+    height: 50px;
+    width: 400px;
+    background: red;
+    border: 1px solid ;
+    display: flex;
+
+}
+
+.a1{
+    height: 50px;
+    width: 50px;
+    background: white;
+    border: 1px solid;
+    /* float: left; */
+
+}
+.b1{
+    height: 50px;
+    width: 50px;
+    background:black;
+    border: 1px solid;
+    /* float: left;  */
+} 
+
